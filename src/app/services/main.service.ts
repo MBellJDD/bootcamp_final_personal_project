@@ -8,7 +8,10 @@ import { FotografosService } from './fotografos.service';
 export class MainService {
   public URL: string;
 
-  constructor(public http: HttpClient, public fotografo: FotografosService) {
+  constructor(
+    public http: HttpClient, 
+    public fotografo: FotografosService) 
+  {
     this.fotografo.service = this;
     this.URL = 'http://localhost:8080/api';
   }
