@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
 // AQUI SE CREAN LOS ATRIBUTOS O VARIABLES PARA LUEGO INTERPOLAR {{}} O IMPRIMIR EN HTML
 export class AppComponent {
   imgParent = '';
+
+  // constructor(private http: HttpClient){}
 
 }
