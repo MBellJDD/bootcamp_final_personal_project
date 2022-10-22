@@ -7,8 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class FotografosService {
-
-public service: MainService;
+  public service: MainService;
   constructor() { }
 
   public async GetFotografos(): Promise<FotografoModel[]> {

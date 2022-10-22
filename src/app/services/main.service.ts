@@ -10,6 +10,7 @@ export class MainService {
 
   constructor(
     public http: HttpClient, 
+    
     public fotografo: FotografosService) 
   {
     this.fotografo.service = this;

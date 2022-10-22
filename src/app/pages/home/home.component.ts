@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import FotografoModel from 'src/app/models/fotografoModel';
 import { MainService } from 'src/app/services/main.service';
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

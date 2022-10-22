@@ -5,7 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+// AQUI SE CREAN LOS ATRIBUTOS O VARIABLES PARA LUEGO INTERPOLAR {{}} O IMPRIMIR EN HTML
 export class AppComponent {
   imgParent = '';
-  title = 'SEMEYES DOGS';
+
 }
