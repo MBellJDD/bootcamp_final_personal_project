@@ -4,14 +4,21 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MaterialModule } from './modules/material.module';
+import { MaterialModule } from './material.module';
+import {MatMenuModule} from '@angular/material/menu';
 //Components
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 import { HomeComponent } from './pages/home/home.component';
+import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { GalleryComponent } from './pages/gallery/gallery.component';
+import { MainComponent } from './components/main/main.component';
+import { FooterComponent } from './components/footer/footer.component';
+
+
+import { PhotographerComponent } from './components/photographer/photographer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +26,11 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
     HomeComponent,
     MenuComponent,
     BannerComponent,
-    GalleryComponent
+    GalleryComponent,
+    FooterComponent,
+    MainComponent,
+    HeaderComponent,
+    PhotographerComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,6 +39,7 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
     HttpClientModule,
     FormsModule,
     MaterialModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

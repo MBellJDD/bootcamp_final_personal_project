@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {MatMenuModule} from '@angular/material/menu';
 
 @Component({
   selector: 'app-menu',
@@ -6,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
-  title = 'SEMEYES DOGS';
-  subtitle: string = '-PET PHOTOGRAPHY -';
+
 
   constructor() { }
 

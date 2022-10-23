@@ -1,9 +1,6 @@
-<img width="400" [src]="img" *ngIf="img; else elseImg">
-<ng-template #elseImg>
-    <img src="src/assets/images/Fotografo_paisaje.jpg" alt="">
-</ng-template>
-
-<div *ngFor="let fotografo of fotografos">
-    {{fotografo.name}}
-    {{fotografo.email}}
-</div>
+  <div>
+    <app-menu></app-menu>
+  </div>
+  <div>
+    <app-banner></app-banner>
+  </div>

@@ -20,7 +20,7 @@ async reload(): Promise<void> {
 
   async ngOnInit(): Promise<void> {
     await this.reload();
-    console.log(this.fotografos);
+    // console.log(this.fotografos);
   }
 
 

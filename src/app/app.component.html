@@ -1,11 +1,13 @@
-<app-menu></app-menu>
-<app-banner banner="Este valor viene del padre"></app-banner>
+<body>
+  <div>
+    <app-header></app-header>
+  </div>
+    <router-outlet></router-outlet>
+  <div>
+    <app-footer></app-footer>
+  </div>
+
+</body>
 
 
-
-
-
-<p><input type="text"  [(ngModel)]="imgParent"></p>
-<app-home [img]="imgParent"></app-home>
-<router-outlet></router-outlet>
 
