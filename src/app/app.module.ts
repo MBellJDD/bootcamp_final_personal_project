@@ -16,10 +16,8 @@ import { MenuComponent } from './components/menu/menu.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { MainComponent } from './components/main/main.component';
 import { FooterComponent } from './components/footer/footer.component';
-
-
 import { PhotographerComponent } from './components/photographer/photographer.component';
-
+import { ListFotografosComponent } from './components/list-fotografos/list-fotografos.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +29,7 @@ import { PhotographerComponent } from './components/photographer/photographer.co
     MainComponent,
     HeaderComponent,
     PhotographerComponent,
+    ListFotografosComponent,
   ],
   imports: [
     BrowserModule,

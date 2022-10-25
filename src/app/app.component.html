@@ -1,13 +1,13 @@
 <body>
+  <app-header></app-header>
+
   <div>
-    <app-header></app-header>
-  </div>
     <router-outlet></router-outlet>
-  <div>
-    <app-footer></app-footer>
   </div>
+  <div class="container m-6 bg-light">
+    <app-list-fotografos></app-list-fotografos>
+  </div>
+  <app-footer></app-footer>
 
+  <!-- <app-home [img]="imgParent"></app-home> -->
 </body>
-
-
-

@@ -7,5 +7,5 @@ import { Component, OnInit } from '@angular/core';
 })
 // AQUI SE CREAN LOS ATRIBUTOS O VARIABLES PARA LUEGO INTERPOLAR {{}} O IMPRIMIR EN HTML
 export class AppComponent {
-
+  // imgParent = '';
 }
